@@ -1,0 +1,7 @@
+.intro {
+  overflow: hidden; }
+  .intro__image, .intro__description {
+    float: left;
+    width: 50%; }
+  .intro__description {
+    padding-left: 30px; }

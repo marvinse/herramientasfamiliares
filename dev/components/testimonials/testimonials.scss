@@ -1,0 +1,30 @@
+@import "../utils/vars";
+.testimonials{
+	clear: both;
+	&__title{
+		margin: 20px 0;
+		padding-bottom: 20px;
+		position: relative;
+		text-align: center;
+		&:after{
+			border-bottom: 4px solid $main-orange;
+			bottom: 0;
+			content: '';
+			left: 0;
+			margin: auto;
+			position: absolute;
+			right: 0;
+			width: 150px;
+		}
+	}
+	&__container{
+		display: flex;
+		justify-content: space-between;
+	}
+	.testimonial{
+		border: 1px solid #ececee;
+		border-radius: 10px;
+		padding: 30px 20px;
+		width: 30%;
+	}
+}

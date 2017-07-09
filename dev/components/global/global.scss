@@ -1,0 +1,13 @@
+@import "../utils/vars";
+*{
+	box-sizing: border-box;
+}
+figure{
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+.pagewrapper{
+	padding: 20px $page-border-space;
+}

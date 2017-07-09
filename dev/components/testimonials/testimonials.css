@@ -1,0 +1,24 @@
+.testimonials {
+  clear: both; }
+  .testimonials__title {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center; }
+    .testimonials__title:after {
+      border-bottom: 4px solid #ffa800;
+      bottom: 0;
+      content: '';
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      width: 150px; }
+  .testimonials__container {
+    display: flex;
+    justify-content: space-between; }
+  .testimonials .testimonial {
+    border: 1px solid #ececee;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 30%; }

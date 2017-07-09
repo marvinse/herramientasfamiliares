@@ -1,0 +1,11 @@
+@import "../utils/vars";
+.intro{
+	overflow: hidden;
+	&__image, &__description{
+		float: left;
+		width: 50%;
+	}
+	&__description{
+		padding-left: 30px;
+	}
+}
