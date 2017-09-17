@@ -41,7 +41,7 @@ module.exports = function(grunt) {
             },
             js: {
                 files: {
-                    'build/js/main.min.js': ['dev/js/main.js'] 
+                    'build/js/main.min.js': ['dev/js/vendor/*.js','dev/js/main.js'] 
                 }
             }
         },
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
             main: {
                 expand: true,
                 cwd: 'dev/',
-                src: ['fonts/**','images/**'],
+                src: ['fonts/**','images/**','fonts/**'],
                 dest: 'build/',
             }
         },
